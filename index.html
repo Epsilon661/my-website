@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1>Hi, I'm <span class="highlight">John Doe</span></h1>
+      <p>A passionate Web Developer eager to build impactful digital experiences.</p>
+      <a href="#projects" class="cta-button">View Projects</a>
+    </div>
+  </section>
+  <!-- About Us Section -->
+<section id="about" class="about">
+  <div class="about-container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Hello! I'm <strong>John Doe</strong>, a self-taught web developer based in Accra, Ghana. My passion for web development began in high school when I built my first personal blog. Since then, I’ve been dedicated to crafting beautiful, responsive, and user-friendly websites.</p>
+
+        <p>I specialize in frontend development using HTML, CSS, and JavaScript. My goal is to turn ideas into visually appealing and functional digital products that solve real-world problems.</p>
+
+        <p>When I’m not coding, I enjoy photography, writing tech tutorials, and exploring open-source projects.</p>
+      </div>
+      <div class="about-image">
+        <!-- You can add an image here later -->
+        <div class="about-image">
+  <img src="pp.jpg" alt="Profile Picture of John Doe" class="profile-pic">
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="projects-container">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A modern personal portfolio site built with HTML, CSS, and JavaScript. Fully responsive and interactive.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Task Tracker</h3>
+        <p>A simple task management tool that allows users to add, delete, and mark tasks as complete using local storage.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>A weather application that fetches live weather data using an open weather API and displays forecasts dynamically.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>A clean and minimal landing page designed for a fictional product launch. Focuses on call-to-action and branding.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Us Section -->
+<section id="contact" class="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p class="contact-subtext">Have a question or want to work together? Send me a message below!</p>
+    
+    <form class="contact-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Your Email" />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+      </div>
+
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+          <!-- Contact Info -->
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/1234567890" target="_blank">+123 456 7890</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+      </div>
+
+  </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
